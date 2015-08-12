@@ -1,5 +1,5 @@
 //This script randomly creates 10 markers with 10 triggers everytime it executes. 
-
+//For this to work you will need to place a logic named "CENTER"
 if ( !isDedicated && hasInterface ) then {
 
 					for "_i" from 0 to 10 step 1 do {_gamelogic = CENTER;
